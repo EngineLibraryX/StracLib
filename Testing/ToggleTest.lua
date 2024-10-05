@@ -81,18 +81,18 @@ function libary:CreateMain(text)
 	Main.Position = UDim2.new(0.370458126, 0, 0.174708813, 0)
 	Main.Size = UDim2.new(0, 319, 0, 389)
 
-  Toggle.Name = "Toggle"
-  Toggle.Parent = Main
-  Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-  Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
-  Toggle.Size = UDim2.new(0, 90, 0, 38)
-  Toggle.Font = Enum.Font.SourceSans
-  Toggle.Text = "Tutorial"
-  Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
-  Toggle.TextSize = 28.000
-  Toggle.Draggable = true
-  Toggle.MouseButton1Click:connect(function()
-    Library:ToggleUI()
+        Toggle.Name = "Toggle"
+        Toggle.Parent = Main
+        Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+        Toggle.Size = UDim2.new(0, 90, 0, 38)
+        Toggle.Font = Enum.Font.SourceSans
+        Toggle.Text = "Tutorial"
+        Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+        Toggle.TextSize = 28.000
+        Toggle.Draggable = true
+        Toggle.MouseButton1Click:connect(function()
+           Library:ToggleUI()
 
   
 	Top.Name = "Top"
