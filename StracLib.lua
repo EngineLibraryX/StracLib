@@ -1,8 +1,10 @@
+-- Notification
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Welcome", -- Required
 	Text = "Welcome!", -- Required
 })
 
+-- Lib & intances
 libary = {}
 function libary:CreateMain(text)
 	local StracLib = Instance.new("ScreenGui")
@@ -57,6 +59,7 @@ function libary:CreateMain(text)
 	local UiStroke_2 = Instance.new("UIStroke")
 	local Credits = Instance.new("TextLabel")
 
+	-- Gui stuff
 	UiStroke.Parent = ControlBar
 	UiStroke.Color = Color3.fromRGB(66, 69, 73)
 	UiStroke.Thickness = 2
@@ -480,6 +483,7 @@ function libary:CreateMain(text)
 	UICorner_12.CornerRadius = UDim.new(0, 12)
 	UICorner_12.Parent = Hats
 
+-- Tween Stuff settings
 	local function HYWZ_fake_script() -- Rejoin.TweenStuff
 		local script = Instance.new("LocalScript", Rejoin)
 
@@ -957,7 +961,7 @@ function libary:CreateMain(text)
 		end)
 	end
 	coroutine.wrap(UPRLAP_fake_script)()
-
+-- EpicLibrary! Kool stuff
 	local EpicLibary = {}
 	function EpicLibary:CreateButton(Text_, Hat_1, Hat_2, Hat_3, Hat_4, Hat_5, call)
 		local TextButton = Instance.new("TextButton")
@@ -1020,7 +1024,8 @@ function libary:CreateMain(text)
 		TextLabel.TextWrapped = true
 		TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 		TextLabel.Text = Text_
-
+		
+-- Localscript settings
 		local function LCVTNOR_fake_script() -- TextButton.LocalScript
 			local script = Instance.new("LocalScript", TextButton)
 
