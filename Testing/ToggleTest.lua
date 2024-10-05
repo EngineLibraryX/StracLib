@@ -7,7 +7,7 @@ libary = {}
 function libary:CreateMain(text)
 	local StracLib = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
-  local Toggle = Instance.new("TextButton")
+        local Toggle = Instance.new("TextButton")
 	local Top = Instance.new("Folder")
 	local Title = Instance.new("TextLabel")
 	local Frame = Instance.new("Frame")
