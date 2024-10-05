@@ -93,7 +93,7 @@ function libary:CreateMain(text)
         Toggle.Draggable = true
         Toggle.MouseButton1Click:connect(function()
            Library:ToggleUI()
-
+		end)
   
 	Top.Name = "Top"
 	Top.Parent = Main
