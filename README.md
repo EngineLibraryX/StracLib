@@ -19,3 +19,7 @@ Main_:CreateButton("Title", "About/Description", "", "", "", "", function()
 end)
 ```
 - Replace SCRIPTHERE with your script.
+
+# Example image
+![example main tab](https://github.com/EngineLibraryX/StracLib/blob/main/Images/Main%20tab.png)
+![example settings tab](https://github.com/EngineLibraryX/StracLib/blob/main/Images/Settings%20tab.png)
