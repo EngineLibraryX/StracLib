@@ -1,3 +1,8 @@
+-- TEST IS CLOSED
+-- Test result: fail
+-- cause: failed to load UI.
+
+game.Players.LocalPlayer:Kick("Error while running: TEST IS CLOSED!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Welcome", -- Required
 	Text = "Welcome!", -- Required
