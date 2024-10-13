@@ -135,7 +135,7 @@ function libary:CreateMain(text)
 	Credits.Position = UDim2.new(0.022, 0, 0.835390925, 0)
 	Credits.Size = UDim2.new(0, 118, 0, 40)
 	Credits.Font = Enum.Font.SourceSans
-	Credits.Text = "UI Library made By NectoVerse Development"
+	Credits.Text = "StracLib V1.0"
 	Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Credits.TextScaled = true
 	Credits.TextSize = 14.000
