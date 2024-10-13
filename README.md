@@ -1,5 +1,9 @@
 # Description
-- StracLib is a single-tab UI library meaning, every scripts are stored in one tab, it offers Mobile and PC support, smooth and clean, offers a  script search bar! Free For All!
+- StracLib is a single-tab UI libary meaning, every scripts are stored in one tab, it offers Mobile and PC support, smooth and clean, offers a  script search bar! Free For All!
+
+- The buttons in libary are one time use meaning it cannot be toggled back. so rejoin will be useful.
+- This libary wont get any buttons like toggle, dropdown, sliders ETC. only single button.
+- One time usage.
 
 # Installation
 - Copy and paste this code in first line
