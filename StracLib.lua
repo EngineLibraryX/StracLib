@@ -216,7 +216,7 @@ function libary:CreateMain(text)
 	TextLabel_3.Position = UDim2.new(0, 0, 1, 0)
 	TextLabel_3.Size = UDim2.new(0, 46, 0, 20)
 	TextLabel_3.Font = Enum.Font.SourceSans
-	TextLabel_3.Text = "KILL [Doesnt work]"
+	TextLabel_3.Text = "Entity"
 	TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 	TextLabel_3.TextScaled = true
 	TextLabel_3.TextSize = 14.000
@@ -962,8 +962,8 @@ function libary:CreateMain(text)
 	end
 	coroutine.wrap(UPRLAP_fake_script)()
 -- EpicLibrary! Kool stuff
-	local EpicLibary = {}
-	function EpicLibary:CreateButton(Text_, Hat_1, Hat_2, Hat_3, Hat_4, Hat_5, call)
+	local ZxUILibary = {}
+	function ZxUILibary:CreateButton(Text_, Hat_1, Hat_2, Hat_3, Hat_4, Hat_5, call)
 		local TextButton = Instance.new("TextButton")
 		local UICorner_2 = Instance.new("UICorner")
 		local TextLabel = Instance.new("TextLabel")
@@ -1100,5 +1100,5 @@ function libary:CreateMain(text)
 		end)
 
 	end
-	return EpicLibary
+	return ZxUILibary
 end
