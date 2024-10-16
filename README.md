@@ -27,3 +27,8 @@ end)
 # Example image
 ![example main tab](https://github.com/EngineLibraryX/StracLib/blob/main/Images/Main%20tab.png)
 ![example settings tab](https://github.com/EngineLibraryX/StracLib/blob/main/Images/Settings%20tab.png)
+
+> ALERT
+> THIS UI LIBARY ARE NOT MADE BY US OFFICIALLY!
+> THIS IS SKIDDED FROM: https://github.com/Blukezz/UTG-V4/
+> WE JUST MADE IT A FFA WORKING UI LIB.
